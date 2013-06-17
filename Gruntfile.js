@@ -122,7 +122,7 @@ grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-concat');
 grunt.loadNpmTasks('grunt-zipstream');
 
-grunt.registerTask('default', ['jshint', 'qunit']);
+grunt.registerTask('default', ['qunit']);
 grunt.registerTask('release', ['default', 'concat', 'uglify', 'zip']);
 
 };
